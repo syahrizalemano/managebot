@@ -188,7 +188,7 @@ CMD_HELP.update(
     {
         "ping": f"**Plugin : **`ping`\
         \n\n  𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :** `{cmd}ping` ; `{cmd}xping` ; `{cmd}kping`\
-        \n  ❍▸ : **Untuk menunjukkan ping geezproject.\
+        \n  ❍▸ : **Untuk menunjukkan ping.\
         \n\n  𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :** `{cmd}pong`\
         \n  ❍▸ : **Sama seperti perintah ping\
     "
@@ -200,7 +200,7 @@ CMD_HELP.update(
     {
         "speedtest": f"**Plugin : **`speedtest`\
         \n\n  𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :** `{cmd}speedtest`\
-        \n  ❍▸ : **Untuk Mengetes kecepatan server geezproject.\
+        \n  ❍▸ : **Untuk Mengetes kecepatan server.\
     "
     }
 )
