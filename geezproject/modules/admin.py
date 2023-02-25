@@ -183,7 +183,7 @@ async def ban(bon):
     user, reason = await get_user_from_event(bon)
     if not user:
         return
-    geez = await edit_or_reply(bon, "`Processing Banned...`")
+    geez = await edit_or_reply(bon, "`makanya jgn tolol bgt di ban kan...`")
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
     except BadRequestError:
@@ -216,7 +216,7 @@ async def nothanos(unbon):
         return
     try:
         await unbon.client(EditBannedRequest(unbon.chat_id, user.id, UNBAN_RIGHTS))
-        await edit_delete(geez, "`Unban Berhasil Dilakukan!`")
+        await edit_delete(geez, "`Unban Berhasil Dilakukan mohon jangan tolol lagi!`")
     except UserIdInvalidError:
         await edit_delete(geez, "`Sepertinya Terjadi ERROR!`")
 
