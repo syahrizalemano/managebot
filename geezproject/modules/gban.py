@@ -140,7 +140,7 @@ async def gunben(geezproject):
     if user:
         if user.id in DEVS:
             return await dark.edit(
-                "** Maaf Geez Tidak Bisa Melakukan Printah Ini Karna Dia Pembuat saya**"
+                "** Maaf saya Tidak Bisa Melakukan Printah Ini Karna Dia Pembuat saya**"
             )
         try:
             from geezproject.modules.sql_helper.gmute_sql import ungmute
